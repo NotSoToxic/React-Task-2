@@ -29,15 +29,23 @@
 
 .keypad_keys p {
   width: 33%;
-  height: 25%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .keypad_symbols {
   flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .keypad_symbols p {
   color: #89a5f1;
   width: 100%;
-  height: 20%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

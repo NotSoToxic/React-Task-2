@@ -56,6 +56,11 @@ function KeyPad(props) {
 
   const symbols = [
     {
+      label: "C",
+      keyCode: 67,
+      value: "clear",
+    },
+    {
       label: "⌫",
       keyCode: 8,
       value: "backspace",
